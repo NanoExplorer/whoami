@@ -1,0 +1,191 @@
+06/25/2020 08:00:23 PM Server starting.
+06/25/2020 08:01:32 PM Connection established with 127.0.0.1.
+06/25/2020 08:01:56 PM Error in connection handler
+Traceback (most recent call last):
+  File "C:\Users\Christopher\Anaconda3\lib\site-packages\websockets\server.py", line 191, in handler
+    await self.ws_handler(self, path)
+  File "whoami.py", line 52, in server
+    websocket.send(LIST_OF_NAMES[number])
+IndexError: list index out of range
+06/25/2020 08:03:43 PM Server starting.
+06/25/2020 08:03:48 PM Connection established with 127.0.0.1.
+06/25/2020 08:05:15 PM Server starting.
+06/25/2020 08:05:23 PM Connection established with 127.0.0.1.
+06/25/2020 08:05:28 PM message
+06/25/2020 08:06:03 PM Server starting.
+06/25/2020 08:06:07 PM Connection established with 127.0.0.1.
+06/25/2020 08:06:14 PM message 0
+06/25/2020 08:06:15 PM message 0
+06/25/2020 08:06:17 PM message 0
+06/25/2020 08:06:18 PM message 1
+06/25/2020 08:06:19 PM message 1
+06/25/2020 08:06:20 PM message 1
+06/25/2020 08:06:22 PM message 2
+06/25/2020 08:06:23 PM message 2
+06/25/2020 08:06:24 PM message 2
+06/25/2020 08:06:24 PM message 1
+06/25/2020 08:06:25 PM message 2
+06/25/2020 08:06:26 PM message 1
+06/25/2020 08:06:27 PM message 2
+06/25/2020 08:06:28 PM message 3
+06/25/2020 08:06:28 PM Error in connection handler
+Traceback (most recent call last):
+  File "C:\Users\Christopher\Anaconda3\lib\site-packages\websockets\server.py", line 191, in handler
+    await self.ws_handler(self, path)
+  File "whoami.py", line 53, in server
+    await websocket.send(LIST_OF_NAMES[number])
+IndexError: list index out of range
+06/25/2020 08:07:54 PM Server starting.
+06/25/2020 08:07:59 PM Connection established with 127.0.0.1.
+06/25/2020 08:07:59 PM message 3
+06/25/2020 08:08:15 PM Connection established with 127.0.0.1.
+06/25/2020 08:08:23 PM message secret:citation
+06/25/2020 08:08:23 PM value error
+06/25/2020 08:08:28 PM message 0
+06/25/2020 08:10:12 PM Server starting.
+06/25/2020 08:10:36 PM Connection established with 127.0.0.1.
+06/25/2020 08:10:44 PM Connection established with 127.0.0.1.
+06/25/2020 08:10:49 PM message secret:nirvana
+06/25/2020 08:10:49 PM value error
+06/25/2020 08:10:51 PM message 0
+06/25/2020 08:10:52 PM message 0
+06/25/2020 08:10:52 PM message 0
+06/25/2020 08:10:53 PM message 0
+06/25/2020 08:10:53 PM message 0
+06/25/2020 08:10:53 PM message 0
+06/25/2020 08:10:57 PM message 1
+06/25/2020 08:13:29 PM Server starting.
+06/25/2020 08:13:34 PM Connection established with 127.0.0.1.
+06/25/2020 08:13:43 PM Connection established with 127.0.0.1.
+06/25/2020 08:13:47 PM message secret:parameters
+06/25/2020 08:13:47 PM value error
+06/25/2020 08:13:48 PM message 0
+06/25/2020 08:13:49 PM message 1
+06/25/2020 08:13:52 PM message 1
+06/25/2020 08:13:53 PM message 1
+06/25/2020 08:13:53 PM message 1
+06/25/2020 08:13:54 PM message 1
+06/25/2020 08:13:55 PM message 1
+06/25/2020 08:13:56 PM message 0
+06/25/2020 08:13:58 PM message 1
+06/25/2020 08:14:00 PM message 0
+06/25/2020 08:14:01 PM message 1
+06/25/2020 08:14:02 PM message 1
+06/25/2020 08:14:03 PM message 0
+06/25/2020 08:14:04 PM message 1
+06/25/2020 08:14:22 PM message secret:parameters
+06/25/2020 08:14:22 PM value error
+06/25/2020 08:14:25 PM message 0
+06/25/2020 08:14:26 PM message 1
+06/25/2020 08:14:30 PM message secret:parameters
+06/25/2020 08:14:30 PM value error
+06/25/2020 08:14:32 PM message 1
+06/25/2020 08:14:33 PM message 2
+06/25/2020 08:14:35 PM message 3
+06/25/2020 08:14:36 PM message 4
+06/25/2020 08:14:38 PM message awsf
+06/25/2020 08:14:38 PM value error
+06/25/2020 08:14:41 PM message 1
+06/25/2020 08:14:44 PM message 1
+06/25/2020 08:14:45 PM message 1
+06/25/2020 08:14:46 PM message 1
+06/25/2020 08:14:47 PM message 1
+06/25/2020 08:14:47 PM message 1
+06/25/2020 08:14:48 PM message 1
+06/25/2020 08:14:49 PM message 1
+06/25/2020 08:14:50 PM message 1
+06/25/2020 08:14:51 PM message 2
+06/25/2020 08:14:53 PM message awsf
+06/25/2020 08:14:53 PM value error
+06/25/2020 08:14:54 PM message 1
+06/25/2020 08:14:57 PM message 1
+06/25/2020 08:14:59 PM message awsf
+06/25/2020 08:14:59 PM value error
+06/25/2020 08:15:00 PM message 1
+06/25/2020 08:15:43 PM You pressed CTRL-C! Exiting...
+06/25/2020 08:15:46 PM Server starting.
+06/25/2020 08:15:52 PM Connection established with 127.0.0.1.
+06/25/2020 08:15:52 PM message 1
+06/25/2020 08:15:52 PM sent a name!
+06/25/2020 08:15:54 PM message 2
+06/25/2020 08:15:54 PM sent a name!
+06/25/2020 08:15:54 PM message 3
+06/25/2020 08:15:56 PM message 2
+06/25/2020 08:15:56 PM sent a name!
+06/25/2020 08:15:56 PM message 1
+06/25/2020 08:15:56 PM sent a name!
+06/25/2020 08:16:10 PM Connection established with 127.0.0.1.
+06/25/2020 08:17:50 PM Server starting.
+06/25/2020 08:17:58 PM Connection established with 127.0.0.1.
+06/25/2020 08:18:03 PM message 0
+06/25/2020 08:18:05 PM message 1
+06/25/2020 08:18:05 PM sent a name!
+06/25/2020 08:18:06 PM message 
+06/25/2020 08:18:06 PM value error
+06/25/2020 08:18:08 PM message 22
+06/25/2020 08:18:08 PM message 2
+06/25/2020 08:18:08 PM sent a name!
+06/25/2020 08:18:14 PM Connection established with 127.0.0.1.
+06/25/2020 08:18:16 PM message secret:softball
+06/25/2020 08:18:16 PM value error
+06/25/2020 08:18:21 PM message 1
+06/25/2020 08:18:21 PM sent a name!
+06/25/2020 08:18:48 PM message 2
+06/25/2020 08:18:48 PM sent a name!
+06/25/2020 08:18:48 PM message 1
+06/25/2020 08:18:48 PM sent a name!
+06/25/2020 08:18:50 PM message 1
+06/25/2020 08:18:50 PM sent a name!
+06/25/2020 08:18:52 PM message 1
+06/25/2020 08:18:52 PM sent a name!
+06/25/2020 08:18:52 PM message 1
+06/25/2020 08:18:52 PM sent a name!
+06/25/2020 08:18:53 PM message 1
+06/25/2020 08:18:53 PM sent a name!
+06/25/2020 08:18:53 PM message 1
+06/25/2020 08:18:53 PM sent a name!
+06/25/2020 08:18:53 PM message 1
+06/25/2020 08:18:53 PM sent a name!
+06/25/2020 08:18:54 PM message 1
+06/25/2020 08:18:54 PM sent a name!
+06/25/2020 08:18:55 PM message 1
+06/25/2020 08:18:55 PM sent a name!
+06/25/2020 08:18:55 PM message 1
+06/25/2020 08:18:55 PM sent a name!
+06/26/2020 01:43:35 PM Server starting.
+06/26/2020 01:43:48 PM Connection established with 127.0.0.1.
+06/26/2020 01:44:51 PM Connection established with 127.0.0.1.
+06/26/2020 01:44:59 PM message secret:repair
+06/26/2020 01:44:59 PM value error
+06/26/2020 01:46:49 PM Connection established with 127.0.0.1.
+06/26/2020 01:47:01 PM Connection established with 127.0.0.1.
+06/26/2020 01:47:07 PM message secret:repair
+06/26/2020 01:47:07 PM value error
+06/26/2020 01:47:26 PM Connection established with 127.0.0.1.
+06/26/2020 01:47:31 PM message secret:repair
+06/26/2020 01:47:31 PM value error
+06/26/2020 01:48:29 PM message 0
+06/26/2020 01:48:50 PM message secret:repsdfgsdfgsdf
+06/26/2020 01:48:50 PM value error
+06/26/2020 01:48:50 PM Error in connection handler
+Traceback (most recent call last):
+  File "whoami.py", line 55, in server
+    number = int(message)
+ValueError: invalid literal for int() with base 10: 'secret:repsdfgsdfgsdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Christopher\Anaconda3\lib\site-packages\websockets\server.py", line 191, in handler
+    await self.ws_handler(self, path)
+  File "whoami.py", line 69, in server
+    newnum = LIST_OF_WORDS.index(message[7:].strip())
+ValueError: 'repsdfgsdfgsdf' is not in list
+06/26/2020 01:50:49 PM You pressed CTRL-C! Exiting...
+06/26/2020 01:50:55 PM Server starting.
+06/26/2020 01:50:57 PM Connection established with 127.0.0.1.
+06/26/2020 01:51:01 PM message 0
+06/26/2020 01:51:03 PM message 1
+06/26/2020 01:51:03 PM sent a name!
+06/26/2020 01:51:07 PM message 15
+06/26/2020 01:51:07 PM sent a name!

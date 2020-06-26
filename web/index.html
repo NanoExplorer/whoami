@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<h1> Who Am I </h1>
+<p> Your number is <b id="yournumber">loading...</b>. (Your secret word is <b id="yoursecret">loading...</b>. Try to remember this in case you lose connection somehow.)</p>
+<p> Use the box below to request someone else's number. </p>
+<input type="number" id="othernumber" /> <button type="button" id="submit" onclick="getNumber()">Submit</button>
+<p id="response" />
+<br />
+<br />
+<p> Did your number change, or are you having trouble? Type your original secret word in the box below to reconnect.</p>
+<input type="text" id="secretword" /> <button type="button" id="reconnect" onclick="reconnect()">Reconnect</button>
+
+	<script>
+	var URL = "ws://localhost:8765/"
+	var ws = new WebSocket(URL)
+
+    function getNumber(){
+      var num = document.getElementById("othernumber").value;
+      ws.send(num);
+    }
+
+    ws.onmessage = function(event) {
+    	var message = event.data;
+    	if (message.slice(0,6) == "secret") {
+    		var secret = message.slice(7);
+    		document.getElementById("yoursecret").innerHTML = secret;
+    	} else if (message.slice(0,7) == "yournum") {
+    		document.getElementById("yournumber").innerHTML = message.slice(8);
+    	} else {
+    		var sentnum = document.getElementById("othernumber").value;
+    		var stringresponse = "Number " + sentnum + "'s name is " + message + ".";
+    		document.getElementById("response").innerHTML = stringresponse;
+    	}
+
+    }
+
+    function reconnect(){
+    	var secret = document.getElementById("secretword").value;
+    	ws.send("secret:"+ secret);
+    }
+    	/*
+		function buttonUpdate(id){
+			document.getElementById(activeButtonId).className = "button button--invert";
+			document.getElementById(id).className = "button";
+
+			activeButtonId=id;
+		}
+		function buttonOff(){
+			document.getElementById(activeButtonId).className = "button button--invert";
+		}
+		function sendColor(rd,gn,bl,id){
+			ws.send(rd+":"+gn+":"+bl);
+			colorPicker.color.rgb = {r:rd ,g:gn ,b:bl};
+			buttonUpdate(id);
+			
+		}
+		function anim(a){
+			ws.send("anim."+a);
+			buttonUpdate(a);
+		}*/
+	</script>
+<link rel="stylesheet" type="text/css" href="./res/config">
+</body>
+</html>
